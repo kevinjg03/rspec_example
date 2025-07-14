@@ -1,0 +1,12 @@
+<%= react_component 'ContactPage', props: {
+  title: @title,
+  description: @description,
+  phone: @phone,
+  email: @email,
+  address: @address,
+  facebook: @facebook,
+  instagram: @instagram,
+  twitter: @twitter,
+  linkedin: @linkedin,
+  isLoggedIn: current_user.present?
+} %>

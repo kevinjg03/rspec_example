@@ -1,0 +1,1 @@
+<%= react_component("PostsIndex", props: { posts: @posts.as_json(only: [:id, :title, :content]), isLoggedIn: current_user.present? }) %>
